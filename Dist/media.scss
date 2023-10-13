@@ -1,0 +1,16 @@
+@media (min-width: 370px) and (max-width: 800px) {
+  body {
+    main {
+      width: 90%;
+      .container {
+        width: 100%;
+        .line {
+          margin-block-end: 4rem;
+          button {
+            right: 45%;
+          }
+        }
+      }
+    }
+  }
+}

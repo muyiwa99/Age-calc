@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- Main content  -->
+    <main class="main">
+      <!-- Calculator container -->
+      <div class="container">
+        <!-- Inputs section  -->
+        <div class="container-inputs">
+          <div class="container-inputs_days">
+            <h2>DAY</h2>
+            <input id="day" type="text" placeholder="DD" />
+            <span></span>
+          </div>
+
+          <div class="container-inputs_month">
+            <h2>MONTH</h2>
+            <input id="month" type="text" placeholder="MM" />
+            <span></span>
+          </div>
+
+          <div class="container-inputs_year">
+            <h2>YEAR</h2>
+            <input id="year" type="text" placeholder="YYYY" />
+            <span></span>
+          </div>
+        </div>
+        <!-- Horizontal line  -->
+        <div class="line">
+          <hr />
+          <button id="submit">
+            <img src="/images/icon-arrow.svg" alt="" />
+          </button>
+        </div>
+
+        <!-- Outputs section -->
+        <div class="container-output">
+          <div class="years">
+            <h2><span id="yy">--</span>Years</h2>
+          </div>
+
+          <div class="month">
+            <h2><span id="mm">--</span>Month</h2>
+          </div>
+
+          <div class="days">
+            <h2><span id="dd">--</span>Days</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
