@@ -26,14 +26,12 @@ main .container {
 main .container-inputs {
   display: flex;
   gap: 2rem;
-  -webkit-margin-after: 4rem;
-          margin-block-end: 4rem;
+  margin-block-end: 4rem;
 }
 main .container-inputs h2 {
   color: hsl(0, 1%, 44%);
   font-size: 16px;
-  -webkit-margin-after: 10px;
-          margin-block-end: 10px;
+  margin-block-end: 10px;
 }
 main .container-inputs input {
   height: 5rem;

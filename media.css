@@ -6,8 +6,7 @@
     width: 100%;
   }
   body main .container .line {
-    -webkit-margin-after: 4rem;
-            margin-block-end: 4rem;
+    margin-block-end: 4rem;
   }
   body main .container .line button {
     right: 45%;
